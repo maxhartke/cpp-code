@@ -1,0 +1,5 @@
+all:    vowels
+vowels:  vowels.c
+	gcc -o vowels vowels.c
+clean:
+	rm -f vowels

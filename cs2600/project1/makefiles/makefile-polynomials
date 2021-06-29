@@ -1,0 +1,5 @@
+all:    polynomials
+polynomials:  polynomials.c
+	gcc -o polynomials polynomials.c
+clean:
+	rm -f polynomials
