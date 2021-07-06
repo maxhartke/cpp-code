@@ -13,11 +13,7 @@ Write 2 seperate scripts (phonebook.bash and phonebook.csh) to maintain a phoneb
 - Birth date: MM/DD/YYYY
 - Salary
 
-The sample text file with the desired format can be found here
-
-**Output:**
-
-The program should provide the user with the following menu options:
+**Output:** The program should provide the user with the following menu options:
 
 - Listing of records in alphabetical order of first name or last name
 - Listing of records in reverse alphabetical order of first name or last name
@@ -26,10 +22,6 @@ The program should provide the user with the following menu options:
 - Insert Record (of course, at the correct location in the sorted list)
 - Delete Record from the list by providing the mobile phone number or last name
 - Write out the sorted records to the same file before exiting the script.
-- If not using the sample datafile, then create a text file containing minimum 10 records in the specified format. Your script should reject any record(s) having illegal values, e.g. phone numbers in incorrect format or incorrect zip codes etc., either upon reading the file first or upon a new entry. If you cannot implement format checking for fields due to time constraints, it's ok, please go ahead and submit what you have. you will not be penalized for it
-- Feel free to add any other field(s) that you might think is/are important for you to have in a phone book.
-- You can also add more menu options (functionality) as desired other than the ones mentioned in the next section.
-- Write your own functions (if allowed by the shell, to do the various menu options)
 
 **Programming considerations**
 
