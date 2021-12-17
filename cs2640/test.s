@@ -46,4 +46,13 @@ while:
 exit: 
         li      $v0, 10         # exit
         syscall
-        .end    main 
+        .end    main
+#
+#       int pow(int x, int y)
+#               returns x * pow(x, y -1)
+#       Parameters:
+#               a0: int x
+#               a1: int y
+#       Return value:
+#               v0: x * pow(x, y -1)
+#
