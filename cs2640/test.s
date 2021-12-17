@@ -14,7 +14,6 @@ sumis:  .asciiz "\nThe sum is "
 count:  .asciiz "\nThe count is "
 avrg:   .asciiz "\nThe average is "
 null:   .asciiz "\nNo data entered\n"
-
         .text
 main:
         la      $a0, title      # output program heading
