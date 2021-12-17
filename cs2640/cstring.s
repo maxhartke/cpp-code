@@ -68,4 +68,4 @@ exit:
         syscall
         li      $v0, 10         # exit
         syscall
-.end            main 
+        .end    main 
