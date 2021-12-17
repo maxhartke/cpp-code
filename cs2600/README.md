@@ -2,11 +2,9 @@
 
 Code for cs2600 taken summer semester of 2021
 
-[Syllabus]
-(https://drive.google.com/file/d/1SZ1CnFTvXPMtpC0r7T0xmlfaYyEVW3qr/view?usp=sharing)
+[Syllabus](https://drive.google.com/file/d/1SZ1CnFTvXPMtpC0r7T0xmlfaYyEVW3qr/view?usp=sharing)
 
-[Google Drive]
-(https://drive.google.com/drive/folders/1Rt-BRSt7OLMyqsdt6hxvExyoTnx4_jnM?usp=sharing)
+[Google Drive](https://drive.google.com/drive/folders/1Rt-BRSt7OLMyqsdt6hxvExyoTnx4_jnM?usp=sharing)
 
 ## Catalog Description
 
