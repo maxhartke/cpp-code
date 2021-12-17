@@ -1,6 +1,6 @@
 # CS2600 - Systems Programming
 
-Code for cs2600 taken summer semester of 2021
+cs2600 code for summer semester of 2021
 
 [Google Drive](https://drive.google.com/drive/folders/1Rt-BRSt7OLMyqsdt6hxvExyoTnx4_jnM?usp=sharing)
 
