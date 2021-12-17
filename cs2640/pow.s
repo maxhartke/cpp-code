@@ -13,7 +13,6 @@ descpt: .asciiz "n.....2^n\n"
 dots:   .asciiz "....."
 x = 2 
         .text
-
 main:
         la	$a0, title      # display title
         li	$v0, 4
