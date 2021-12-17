@@ -43,10 +43,6 @@ while:
         syscall
         addi    $t0, $t0, 1     # increment count
         bne     $t0, 10, while  # if < 10 then while
-exit: 
-        li      $v0, 10         # exit
-        syscall
-        .end    main
 #
 #       int pow(int x, int y)
 #               returns x * pow(x, y -1)
@@ -67,3 +63,7 @@ pow:
         lw      $a0, 8($sp)        
         lw      $a1, 4($sp)  
         mul     $v0, $v0, $a0   # multiply x by return value of pow
+exit: 
+        li      $v0, 10         # exit
+        syscall
+        .end    main
