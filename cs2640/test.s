@@ -43,3 +43,7 @@ while:
         syscall
         addi    $t0, $t0, 1     # increment count
         bne     $t0, 10, while  # if < 10 then while
+exit: 
+        li      $v0, 10         # exit
+        syscall
+        .end    main 
