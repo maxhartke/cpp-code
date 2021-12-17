@@ -47,3 +47,30 @@ exit:
         li      $v0, 10         # exit
         syscall
         .end    main
+#
+#       int pow(int x, int y)
+#               returns x * pow(x, y -1)
+#       Parameters:
+#               a0: int x
+#               a1: int y
+#       Return value:
+#               v0: x * pow(x, y -1)
+#
+pow:
+        addiu   $sp, $sp, -16   # allocate space on stack
+        sw      $ra, 12($sp)
+        sw      $a0, 8($sp)
+        sw      $a1, 4($sp)
+        beqz    $a1, rtrn1      # if y = 0 then rtrn1
+        addiu   $a1, $a1, -1    # subtract 1 from y
+        jal     pow             # call pow
+        lw      $a0, 8($sp)        
+        lw      $a1, 4($sp)  
+        mul     $v0, $v0, $a0   # multiply x by return value of pow
+rtrn:   
+        lw      $ra, 12($sp)
+        addiu   $sp, $sp, 16
+        jr      $ra             # return to main
+rtrn1:                                        
+        li      $v0, 1          # return 1
+        b       rtrn            # return to rttn
