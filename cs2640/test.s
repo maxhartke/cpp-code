@@ -56,3 +56,14 @@ exit:
 #       Return value:
 #               v0: x * pow(x, y -1)
 #
+pow:
+        addiu   $sp, $sp, -16   # allocate space on stack
+        sw      $ra, 12($sp)
+        sw      $a0, 8($sp)
+        sw      $a1, 4($sp)
+        beqz    $a1, rtrn1      # if y = 0 then rtrn1
+        addiu   $a1, $a1, -1    # subtract 1 from y
+        jal     pow             # call pow
+        lw      $a0, 8($sp)        
+        lw      $a1, 4($sp)  
+        mul     $v0, $v0, $a0   # multiply x by return value of pow
