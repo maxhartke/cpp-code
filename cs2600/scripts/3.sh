@@ -1,6 +1,8 @@
 # script that asks user for a score or take a score as an arguemnet and returns grade
 #! /bin/sh
-if [ `expr 90 \< $1` -eq 1 ] && [ `expr $1 \< 100` -eq 1 ]
+if [ $# -eq 0 ]
+then echo "No arguments provided, integer between 0 & 100 expected"
+elif [ `expr 90 \< $1` -eq 1 ] && [ `expr $1 \< 100` -eq 1 ]
 then echo "A"
 elif [ `expr 80 \< $1` -eq 1 ] && [ `expr $1 \< 90` -eq 1 ]
 then echo "B"

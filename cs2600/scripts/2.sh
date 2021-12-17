@@ -2,7 +2,7 @@
 #! /bin/sh
 while [ true ]
 do 
-echo "Are you OK?"
+echo "Are you OK? (enter y for Yes and n for no"
 read response
 case $response in
     "y" | "Y")
