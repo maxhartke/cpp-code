@@ -68,9 +68,9 @@ pow:
         lw      $a1, 4($sp)  
         mul     $v0, $v0, $a0   # multiply x by return value of pow
 rtrn:   
-        lw      $ra, 12($sp)
+        lw      $ra, 12($sp)    # return to main
         addiu   $sp, $sp, 16
-        jr      $ra             # return to main
+        jr      $ra
 rtrn1:                                        
         li      $v0, 1          # return 1
         b       rtrn            # return to rttn

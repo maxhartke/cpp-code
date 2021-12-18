@@ -20,7 +20,6 @@ x1:     .asciiz "x1 = "
 x2:     .asciiz "x2 = "
 
         .text
-
 main:
         la	$a0, title      # display title
         li  	$v0, 4
