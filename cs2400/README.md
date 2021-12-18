@@ -10,5 +10,3 @@ cs2400 code for fall semester of 2020
 Abstract data types and their implementation using linear and non-linear data structures. Interfaces and
 generics. Advanced file access. Recursive structures and operations. Big-O notation and introduction to
 algorithm analysis.
-
-## Running
