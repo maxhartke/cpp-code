@@ -1,5 +1,5 @@
 # CS2640 - Computer Organization and Assembly Programming
-CS2640 code for spring semester of 2021
+cs2640 code for spring semester of 2021
 
 [Google Drive](https://drive.google.com/drive/folders/1pBMpHOdg9H6cdmPI0AN_ZlB4pm5-kPjL?usp=sharing)
 
