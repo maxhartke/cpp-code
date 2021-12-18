@@ -10,6 +10,3 @@ cs3010 code for summer semester of 2021
 Linear algebra concepts, Linear Transformations and Matrix Factorizations, Eigenvalues
 and Eigenvectors, Least Squares, Error analysis, floating-point representations, roots of
 non-linear equations, systems of linear equations, interpolation, numerical integration.
-
-## Running
-
