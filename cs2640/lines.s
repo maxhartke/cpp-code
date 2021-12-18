@@ -16,7 +16,6 @@ lines: .word 0:MAXLINES
 inbuf: .space LINELEN
 
         .text
-
 main:
         la	$a0, title      # display title
         li	$v0, 4
