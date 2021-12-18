@@ -1,14 +1,14 @@
-Programming Project 2
+## Programming Project 2
 
 Write programs for all the methods (Bisection, Newton-Raphson, Secant, False-Position and Modified Secant) for locating roots. Make sure that you have clever checks in your program to be warned and stop if you have a divergent solution or stop if the solution is very slowly convergent after a maximum number of iterations.
 
 Use your programs to find the roots of the following functions and plot three graphs for each one of the functions. The first graph should plot the given function. Use any plotting software. This will give you the idea of the root/s of the function. The second graph should show the approximate relative error (y–axis in logarithmic scale) vs. the number of iterations (x-axis) for all the methods. Each root should have a separate graph and each graph will have 5 curves on it (one for each method used to find the root)
 
-(a)f(x)=2x3 –11.7x2 +17.7x–5
+>(a)f(x)=2x3 –11.7x2 +17.7x–5
 
 This function has 3 positive roots, all of which lie between 0 and 4. Find the roots. Implement the methods until e a < 0.1%. Let the maximum iterations be 100. For the modified secant method, use δ = 0.01. Plot the graphs for the approximate % relative error for different roots. Each graph should have 5 error curves, one for each method.
 
-(b) f(x) = x + 10 – x cosh(50/x)
+>(b) f(x) = x + 10 – x cosh(50/x)
 
 For this function, plot the % approximate relative error for each method similar to the part (a). Use δ = 0.01 for the modified secant method. Figure out the initial points for the other methods. As a hint, the root lies in the interval [120, 130]
 Write a report that shows the print outs of all the tables for each method and the graphs as well. Talk about the starting points and convergence to the root for the different methods used.
