@@ -18,4 +18,12 @@ To run scipts use `./` follewed by the file name. E.g.
 
 `./script.sh`
 
-To run c files you must have a c compiler installed. If there is a makefile available run `make`
+To run c files you must have a c compiler installed like [gcc](https://gcc.gnu.org/)
+
+To run a c file using `gcc` run
+
+`gcc -o filename filename.c`
+
+followed by
+
+`./filename`

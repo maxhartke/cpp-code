@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
-
+// program that prompts user for a filename that contains chars
+// and prints out the number of vowels, consonants, puncutation
+// and the respective percentages
 int main(int argc, char **argv)
 {
     char str[100];
@@ -8,7 +10,7 @@ int main(int argc, char **argv)
     float sum = 0, a = 0, e = 0, i = 0, o = 0, u = 0, c = 0, p = 0;
     printf("Please enter a file name\n");
     scanf("%s", str);
-    printf("%s\n", str); //display input
+    printf("%s\n", str); // display input
     FILE *fp;
     fp = fopen(str, "r");
     while ((ch = fgetc(fp)) != EOF)
