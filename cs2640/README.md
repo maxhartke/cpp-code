@@ -10,3 +10,5 @@ architecture. Addressing modes. Assembly programming. Arrays and records.
 Subroutines and macros. Interrupts. I/O interfacing and communication.
 
 ## Running
+
+The code can be run using [SPIM](http://spimsimulator.sourceforge.net/), a MIPS processor simulator
