@@ -1,6 +1,4 @@
-# CS4250 Project 1
-
-## Web Crawler
+# CS4250 Project 1 - Web Crawler
 
 Uses seed URL to download web pages and extract links that are then added to a dictionary which is then used to crawl more webpages from the links in the dictionary
 
@@ -8,8 +6,8 @@ Uses seed URL to download web pages and extract links that are then added to a d
 
 clone repository and cd into directory
 
-    gh repo clone vaibhavi8/webcrawler
-    cd webcrawler
+    gh repo clone maxhartke/cpp-code
+    cd cpp-code/cs4250/crawler
 
 Install dependencies
 
