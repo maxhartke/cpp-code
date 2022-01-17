@@ -23,3 +23,7 @@ run `scraper.py` using python3.x
 All downloaded html pages will be in `/repository/text.html` and a report will be generated containing the craweled URL's and the number of outlinks
 
 ## Text Analysis
+
+![Zipf's Law](Zipfs-law.png)
+
+![Heaps's Law](Heaps-law.png)
