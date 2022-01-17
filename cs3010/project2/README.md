@@ -1,4 +1,4 @@
-## Programming Project 2
+# CS3010 - Programming Project 2
 
 Write programs for all the methods (Bisection, Newton-Raphson, Secant, False-Position and Modified Secant) for locating roots. Make sure that you have clever checks in your program to be warned and stop if you have a divergent solution or stop if the solution is very slowly convergent after a maximum number of iterations.
 
