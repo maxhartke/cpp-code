@@ -1,7 +1,5 @@
 # CPP Code
 
-Code for cs courses taken at CPP from 2019 to 2021
-
 - [cs2400](https://github.com/maxhartke/cpp-code/tree/main/cs2400) - Data Structures and Advanced Programming
 - [cs2600](https://github.com/maxhartke/cpp-code/tree/main/cs2600) - Systems Programming
 - [cs2640](https://github.com/maxhartke/cpp-code/tree/main/cs2640) - Computer Organization and Assembly Programming
